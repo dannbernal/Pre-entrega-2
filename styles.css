@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0c6d3d6f;
+  }
+  
+  #contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #productos, #carrito {
+    border: 1px solid #d82117;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    background-color: #b9321a;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    background-color: #179639;
+    color: rgba(170, 171, 224, 0.774);
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .cantidad-input {
+    width: 40px;
+  }
+  
+  #total {
+    font-weight: bold;
+  }
